@@ -17,8 +17,7 @@ class RegisterFragment : Fragment() {
 
     private val db = FirebaseFirestore.getInstance() // Ensure you're using FirebaseFirestore instance
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         val view = inflater.inflate(R.layout.fragment_register, container, false)
 

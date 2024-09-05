@@ -21,10 +21,7 @@ class LoginFragment : Fragment() {
     var inputEmail:String = ""
     var inputPassword:String = ""
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_login, container, false)
 
         val sharedPreferences = activity?.getSharedPreferences("user_prefs", MODE_PRIVATE)
